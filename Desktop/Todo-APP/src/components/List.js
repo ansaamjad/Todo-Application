@@ -18,10 +18,10 @@ import Header  from "./Header";
         </div>
         <div className="row">
           <div className="col-md-12">
-            <ul className="list-group">
+            <ul className="input-group">
               {state.todos.map(t => (
                 <li key={t} className="list-group-item">
-                  {t}
+                 <h1>{t}</h1> 
                   <button
                     className="float-right btn btn-danger btn-sm"
                     style={{ marginLeft: 10 }}
